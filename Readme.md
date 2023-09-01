@@ -41,11 +41,18 @@ pip install requests twilio
 Before running the app, make sure to configure your API keys and Twilio account information. Modify the following variables in the weather_sms_app.py file:
 
 OPENWEATHERMAP_API_KEY: Your OpenWeatherMap API key.
+
 TWILIO_ACCOUNT_SID: Your Twilio account SID.
+
 TWILIO_AUTH_TOKEN: Your Twilio authentication token.
+
 TWILIO_PHONE_NUMBER: Your Twilio phone number.
+
 RECIPIENT_PHONE_NUMBER: The recipient's phone number (can be input during runtime).
-Note: Keep sensitive information like API keys and credentials secure. Consider using environment variables or a separate configuration file for a more secure setup.
+
+### Note
+
+Keep sensitive information like API keys and credentials secure. Consider using environment variables or a separate configuration file for a more secure setup.
 
 ## Usage
 
