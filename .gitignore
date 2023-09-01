@@ -1,0 +1,20 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment configuration files
+.env
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+
+# Ignore Twilio credentials
+twilio_credentials.json
+
+# Ignore API keys and sensitive information
+secrets.py
+
+# Ignore any generated files or directories
+venv/
+*.log
