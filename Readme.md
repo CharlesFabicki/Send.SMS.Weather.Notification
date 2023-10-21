@@ -61,7 +61,7 @@ Keep sensitive information like API keys and credentials secure. Consider using 
 2. Run the script using the following command:
 
 ```bash
-python main.py
+python weather_sms_app.py
 ```
 
 3. Follow the prompts to enter the recipient's phone number and the city name for weather information.
