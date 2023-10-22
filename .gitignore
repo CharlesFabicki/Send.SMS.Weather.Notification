@@ -1,20 +1,29 @@
-# Ignore Python cache files
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Ignore environment configuration files
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment specific .env file
 .env
 
-# Ignore IDE or editor specific files
+# Compiled Python files
+*.pyc
+
+# System and IDE-specific files
 .vscode/
 .idea/
 
-# Ignore Twilio credentials
-twilio_credentials.json
+# Local configuration
+__pycache__/
+.DS_Store
 
-# Ignore API keys and sensitive information
-secrets.py
+# Your API keys and secret information
+config.py
 
-# Ignore any generated files or directories
-venv/
-*.log
+# Ignore any local directories containing Twilio logs or temporary files
+twilio_logs/
