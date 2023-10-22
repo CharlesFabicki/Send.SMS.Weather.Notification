@@ -92,7 +92,8 @@ Visibility: 10000 meters
 
 SMS sent successfully!
 
-
+## Example Screenshot
+![Example](https://github.com/CharlesFabicki/Send.SMS.Weather.Notification/assets/103677730/cf3fd988-c42e-4ed6-8c1f-279f228856ac)
 
 ## License
 
